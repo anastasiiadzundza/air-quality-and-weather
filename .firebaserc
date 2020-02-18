@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "air-quality-and-weather"
+  },
+  "targets": {
+    "air-quality-and-weather": {
+      "hosting": {
+        "prod": [
+          "air-quality-and-weather"
+        ],
+        "testing": [
+          "airqualityandweather-testing"
+        ]
+      }
+    }
+  }
+}
